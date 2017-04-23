@@ -5,52 +5,54 @@ set -eu
 output=$0.md
 
 ### Event Information ###
-nth=27
-date="02/11(土)"
+nth=28
+date="04/22(土)"
 title="「第${nth}回シェル芸勉強会　大阪サテライト」レポート"
 
-org_title="jus共催 第9回初心者満足度ナンバーワン（当社調べ・調べてないけど）シェル勉強会/第27回sedこわいシェル芸勉強会"
-org_url="https://usptomo.doorkeeper.jp/events/56744"
+org_title="jus共催 第10回初心者向けなのかと百条委員会化する午前のシェル勉強会/第28回基準値を超えるシェル芸勉強会"
+org_url="https://usptomo.doorkeeper.jp/events/58658"
 
-osaka_url="https://atnd.org/events/85597"
-fukuoka_url1="https://atnd.org/events/85463"
-fukuoka_url2="http://papiro.hatenablog.jp/entry/2017/02/12/162647"
+osaka_url="https://atnd.org/events/86778"
+fukuoka_url1="https://atnd.org/events/87216"
+fukuoka_url2=""
 
-starting_slide="https://blog.ueda.asia/?post_type=presenpress&p=9312#/"
-question_url1="https://blog.ueda.asia/?p=9309"
-question_url2="https://blog.ueda.asia/?p=9283"
-togetter_url="https://togetter.com/li/1080314"
+starting_slide=
+question_url1="https://blog.ueda.asia/?p=9602"
+question_url2="https://blog.ueda.asia/?p=9575"
+togetter_url="https://togetter.com/li/1103388"
 
-tokyo_LT="https://www.youtube.com/watch?v=JBax4En3EeM"
+tokyo_LT="https://www.youtube.com/watch?v=uRElj5X0S7k"
 
 ### Main Text ###
-bef_place_url1="https://twitter.com/nmrmsys/status/830215577239117825"
+bef_place_url1="https://twitter.com/nmrmsys/status/855583414866419713"
 
-text_sankasya="今回の参加者は、私も含めて12人、うち、初参加は1名でした。\\n
-じわじわ初心者が増えてきてよいですね。\\n
-\\n
-また今回、西日本では大雪の心配があったので、前日にメールとTwitterで注意喚起の告知を行いました。
-[https://twitter.com/kunst1080/status/830016175849381888:embed]
-(@t_motookaさん、促して下さってありがとうございました！)"
+text_sankasya="今回の参加者は、私も含めて16人、うち、初参加は3名でした。\\n
+徐々に平均年齢が下がってきてなかなか良い感じです♪"
 
 
 # 午前1
-am1_title="鳥海秀一さん「黒い画面と戯れよう」"
-am1_txet="sttyコマンドやtputコマンドを使って、ターミナルにエスケープシーケンスを送って遊ぶという感じの内容でした。\\n
-ターミナル生活をしていく上で、この辺のことを知っていると思わぬところで救われそうな感じですね。"
-am1_url="https://www.youtube.com/watch?v=oeNFq5t_frc"
-am1_url2="[https://twitter.com/t_motooka/status/830228032795217920:embed]"
+am1_title="今泉光之さん「シグナルについて」 ※後半は @ryuichiueda さん"
+am1_txet="SIGNALの種類や役割について体系的に学んだり、trapして確かめたりなど。"
+am1_url="https://www.youtube.com/watch?v=TPzFICWp-sA"
+am1_url2="[https://twitter.com/grethlen/status/855587839098052608:embed]"
+am1_url3="[https://twitter.com/hisaharu/status/855588196729536512:embed]"
+am1_url4="[https://twitter.com/t_motooka/status/855588267420401664:embed]"
+am1_url5=""
 
 # 午前2
-am2_title="石井久治さん(@hisaharu)「シェル芸入門 日常会話編」"
-am2_txet="シェル・コマンド・パイプなどについて、図解でわかりやすく解説した講義でした。初心者の方は必見だと思います！"
-am2_url="https://www.youtube.com/watch?v=cDt2Olr0x84"
-am2_url2="[https://twitter.com/obknnt/status/830238613497475073:embed]"
+am2_title=""
+am2_txet=""
+am2_url=""
+am2_url2=""
+am2_url3=""
+am2_url4=""
+am2_url5=""
+
 
 # 昼休み
-lunch_text="大阪はお昼ごはんを食べつつ、午後に向けてsedの予習をしておりました。嵐の前の静けさとはこのこと――"
+lunch_text=
 
-lunch_url1="https://twitter.com/kunst1080/status/830251969235148800"
+lunch_url1=
 lunch_url2=
 lunch_url3=
 lunch_url4=
@@ -58,20 +60,20 @@ lunch_url5=
 lunch_url6=
 
 # 午後
-pm_text1="sedこわい（こわい"
-pm_url1="https://twitter.com/kunst1080/status/830267156793208834"
-pm_url2="https://twitter.com/kunst1080/status/830282631652663296"
-pm_url3="https://twitter.com/kunst1080/status/830305632615936000"
-pm_text2="sedで置換以外のことをする方法や、コマンドを並べて各方法、ループの使い方など、置換以外の基本的な機能を使い倒した感じです。\\n
-ループはあとでもう一回復習しよう……"
+pm_text1="sed地獄と思いきやawkゴリゴリな感じでした。"
+pm_url1="https://twitter.com/msr386/status/855632997344608257"
+pm_url2="https://twitter.com/gin_135/status/855633161463537664"
+pm_url3="https://twitter.com/nmrmsys/status/855633908636856320"
+pm_url4="https://twitter.com/msr386/status/855677226414620673"
+
+pm_text2="今回はなんというか……非常に疲れました……死屍累々"
 
 # 追記的な
-epilogue="危険な派生物が誕生してしまったようです…\\n
-[https://togetter.com/li/1080646:embed]"
+epilogue="[https://twitter.com/nmrmsys/status/855775981121830912:embed]"
 
 
 ### LT ###
-LT_summary="今回はちょっと少なめですが、今回もUstreamで配信して頂けました！(録画はナシです)"
+LT_summary="今回もUstreamで配信して頂けました！(録画はナシです)"
 
 # LT0_user=""
 # LT0_title=""
@@ -79,42 +81,63 @@ LT_summary="今回はちょっと少なめですが、今回もUstreamで配信�
 # LT0_explain=""
 # LT0_twitter_url1=""
 
-LT1_user="日柳 光久(@mikkun_jp) さん"
-LT1_title="Q7の解説"
-LT1_slide_url="https://twitter.com/mikkun_jp/status/830297680937000960"
-LT1_explain="Q7で「縛り1: 使うコマンドはseq、cp、sedだけ」と「縛り2: ワンライナー中で数字を使わない」という縛りがあったのですが、
-その両方の条件を満たす解とその解説です。\\n
-カジュアルに\`/etc/passwd\`を使うことに若干の危険なかほりを感じますｗ"
-LT1_twitter_url1="https://twitter.com/mikkun_jp/status/830301542225829888"
+LT1_user="@KoharaKazuya さん"
+LT1_title="シェル芸による git rev-list"
+LT1_slide_url="https://www.slideshare.net/reflectresults/git-revlist"
+LT1_explain="gitコマンドを使わず無理やりワンライナーでgitのログを閲覧するというシェル芸。
+ダミーのgzipヘッダーを付けるのは他の処理でもたまにやるという声もありました。こわい。"
+LT1_twitter_url1="https://twitter.com/kunst1080/status/855688296176918528"
+LT1_twitter_url2="https://twitter.com/nmrmsys/status/855688938291208192"
+LT1_twitter_url3="https://twitter.com/Iruyan_Zak/status/855689021783105536"
 
-LT2_user="@t_motooka さん"
-LT2_title="sedで知る 矢印キーのキーコード"
-LT2_slide_url="https://speakerdeck.com/motooka/seddezhi-ru-shi-yin-kifalse-kikodo"
-LT2_explain="\`sed -n l\`してからキー入力し、Enterを押すと、ターミナル上に矢印キーのキーコードが表示されます。やってみましょう！"
-LT2_twitter_url1="https://twitter.com/kunst1080/status/830324962300813312"
-LT2_twitter_url2="https://twitter.com/kunst1080/status/830325926831411200"
-LT2_twitter_url3="https://twitter.com/msr386/status/830326083069186049"
+LT2_user="@msr386 さん"
+LT2_title="FORK爆弾 密着24時"
+LT2_slide_url="https://speakerdeck.com/msr_i386/discover-fork-bomb"
+LT2_explain="みんな大好きFork爆弾。
+それによってサーバが停止したときのクラッシュダンプを見るという、危険シェル芸から一歩踏み込んだ内容の発表でした。
+リソースが枯渇して死亡というイメージはあると思いますが、
+やはり実際に計測して何が起こっているのか確認するということは大事ですね！（しろめ"
+LT2_twitter_url1="https://twitter.com/kunst1080/status/855689966461911040"
+LT2_twitter_url2="https://twitter.com/kunst1080/status/855690778927964161"
+LT2_twitter_url3="https://twitter.com/kunst1080/status/855691564047253504"
+LT2_twitter_url4="https://twitter.com/nmrmsys/status/855693196118052865"
+LT2_twitter_url5="https://twitter.com/msr386/status/855707583142703104"
 
-LT3_user="@nmrmsys さん"
-LT3_title="我は放つ、危険のシェル芸！！(誤爆)"
-LT3_slide_url="https://dl.dropboxusercontent.com/u/54939588/slides/I-Will-Release-Dangerous-Shell-Arts.html"
-LT3_explain="「[スター・ウォーズ Force Band™ by Sphero](https://www.amazon.co.jp/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%BB%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BA-Force-Sphero-%E3%80%90%E6%97%A5%E6%9C%AC%E6%AD%A3%E8%A6%8F%E4%BB%A3%E7%90%86%E5%BA%97%E5%93%81%E3%80%91-AFB01JPN/dp/B01L8GHXSQ)」というガジェットを使って、スターウォーズのジェスチャーで危険シェル芸を放つ！という実演でした。普通の危険シェル芸だと一気にサーバがダウンしてしまうのですが、今回は徐々にダウンしていく状況を確認するべく「マイルドな危険シェル芸」を仕込んで来ていただきました！\\n
-\\n
-今回はサーバ側のトラブルで不発でした……ので、できれば次回にリベンジしていただければと！　よろしくお願いします！"
-LT3_twitter_url1="https://twitter.com/kunst1080/status/830329641902563330"
-LT3_twitter_url2="https://twitter.com/kunst1080/status/830331105463062528"
-LT3_twitter_url3="https://twitter.com/kunst1080/status/830342697428750336"
-LT3_twitter_url4="https://twitter.com/kunst1080/status/830343561644158979"
-LT3_twitter_url5="https://twitter.com/kunst1080/status/830344331856793602"
+LT3_user="@kunst1080"
+LT3_title="Ubuntu on Bash on Ubuntu on Windows"
+LT3_slide_url="https://www.slideshare.net/kunst1080/28lt-ubuntu-on-bash-on-ubuntu-on-windows"
+LT3_explain="Bash on Ubuntu on Windows上でchrootを使い、別のUbuntuのコンテナを動かす……ということで実際に作成した環境をデモしました。
+コンテナ内からコンテナ外のプロセスをkillできるのはいかがなものかと……"
+LT3_twitter_url1="https://twitter.com/nmrmsys/status/855696678103298048"
+LT3_twitter_url2="https://twitter.com/nmrmsys/status/855697583976480768"
+LT3_twitter_url3="https://twitter.com/Iruyan_Zak/status/855698943056859136"
 
+LT4_user="@nmrmsys さん"
+LT4_title="SIerでもできる！　シェル芸？"
+LT4_slide_url="https://dl.dropboxusercontent.com/u/54939588/slides/Shell-Arts-Can-Also-Be-The-SIer.html"
+LT4_explain="とあるSIer向けの勉強会でシェル芸をやりたいという話があり、
+それに向けてブラウザでbashを動かす環境はないか探してみたという内容でした。
+他所様の環境でFork爆弾を投げるのはマジほんとやめてくださいね…… > 某参加者s(複数形)
+"
+LT4_twitter_url1="https://twitter.com/kunst1080/status/855699445186347008"
+LT4_twitter_url2="https://twitter.com/kunst1080/status/855701386318684160"
+LT4_twitter_url2="https://twitter.com/kunst1080/status/855701708478926849"
+
+LT5_user="@3socha さん"
+LT5_title="SSM Run Command で遊ぶ"
+LT5_slide_url="https://horo17.github.io/aws-nest-call-slide/#/"
+LT5_explain="「Windows ホストの PowerShell からイベントログに書き込む SSM Run Command を実行する Lambda Function を Linux ホストのシェルから実行する SSM Run Command」のワンライナーの説明でした。ネストしゅごい……(ぐるぐる～"
+LT5_twitter_url1="https://twitter.com/kunst1080/status/855703616950108160"
+LT5_twitter_url2="https://twitter.com/nmrmsys/status/855704483103293440"
 
 # まとめ
-LT_maeome=
+LT_maeome="今回も濃ゆい発表をありがとうございましたm(_ _)m 大阪のLTはジャンルを問わないので、ネタさえあれば大丈夫！　どしどし発表しちゃって下さい～"
 
 matome="上田会長、東京・福岡・大阪の皆様、お疲れ様でした。\\n
-フェンリル様、会場使わせて下さってありがとうございました！\\n
+フェンリル様、いつも会場を使わせていただきましてありがとうございます！\\n
 
-次回もまたよろしくお願いします！！"
+次回もまたよろしくお願いします！！
+"
 
 #########################################################################################
 eecho() {
@@ -183,12 +206,17 @@ $([ "$am1_url" != "" ] && echo "#### ${am1_title}")
 $([ "$am1_url" != "" ] && echo "[${am1_url}:embed]\\n")
 $([ "$am1_txet" != "" ] && echo "${am1_txet}\\n")
 $([ "$am1_url2" != "" ] && echo "${am1_url2}\\n")
+$([ "$am1_url3" != "" ] && echo "${am1_url3}\\n")
+$([ "$am1_url4" != "" ] && echo "${am1_url4}\\n")
+$([ "$am1_url5" != "" ] && echo "${am1_url5}\\n")
 
 $([ "$am2_url" != "" ] && echo "#### ${am2_title}")
 $([ "$am2_url" != "" ] && echo "[${am2_url}:embed]\\n")
 $([ "$am2_txet" != "" ] && echo "${am2_txet}\\n")
 $([ "$am2_url2" != "" ] && echo "${am2_url2}\\n")
-
+$([ "$am2_url3" != "" ] && echo "${am2_url3}\\n")
+$([ "$am2_url4" != "" ] && echo "${am2_url4}\\n")
+$([ "$am2_url5" != "" ] && echo "${am2_url5}\\n")
 
 $([ "$lunch_text" != "" ] && echo "### おひる")
 $([ "$lunch_text" != "" ] && echo "$lunch_text  ")
@@ -217,6 +245,8 @@ $([ "$tokyo_LT" != "" ] && echo "[${tokyo_LT}:embed]")
 ${LT_summary}
 
 $(writeLT)
+
+<hr>
 
 $LT_maeome
 
