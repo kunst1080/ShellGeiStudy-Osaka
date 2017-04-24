@@ -14,7 +14,7 @@ org_url="https://usptomo.doorkeeper.jp/events/58658"
 
 osaka_url="https://atnd.org/events/86778"
 fukuoka_url1="https://atnd.org/events/87216"
-fukuoka_url2=""
+fukuoka_url2="http://papiro.hatenablog.jp/entry/2017/04/24/002533"
 
 starting_slide=
 question_url1="https://blog.ueda.asia/?p=9602"
@@ -34,10 +34,10 @@ text_sankasya="今回の参加者は、私も含めて16人、うち、初参加
 am1_title="今泉光之さん「シグナルについて」 ※後半は @ryuichiueda さん"
 am1_txet="SIGNALの種類や役割について体系的に学んだり、trapして確かめたりなど。"
 am1_url="https://www.youtube.com/watch?v=TPzFICWp-sA"
-am1_url2="[https://twitter.com/grethlen/status/855587839098052608:embed]"
-am1_url3="[https://twitter.com/hisaharu/status/855588196729536512:embed]"
-am1_url4="[https://twitter.com/t_motooka/status/855588267420401664:embed]"
-am1_url5=""
+am1_url2="[https://www.slideshare.net/bsdhack/ss-75315823:embed]"
+am1_url3="[https://twitter.com/grethlen/status/855587839098052608:embed]"
+am1_url4="[https://twitter.com/hisaharu/status/855588196729536512:embed]"
+am1_url5="[https://twitter.com/t_motooka/status/855588267420401664:embed]"
 
 # 午前2
 am2_title=""
