@@ -5,39 +5,39 @@ set -eu
 output=$0.md
 
 ### Event Information ###
-nth=28
-date="04/22(土)"
+nth=29
+date="07/01(土)"
 title="「第${nth}回シェル芸勉強会　大阪サテライト」レポート"
 
-org_title="jus共催 第10回初心者向けなのかと百条委員会化する午前のシェル勉強会/第28回基準値を超えるシェル芸勉強会"
-org_url="https://usptomo.doorkeeper.jp/events/58658"
+org_title="jus共催 第29回激しいシェル芸勉強会"
+org_url="https://usptomo.doorkeeper.jp/events/61406"
 
-osaka_url="https://atnd.org/events/86778"
-fukuoka_url1="https://atnd.org/events/87216"
-fukuoka_url2="http://papiro.hatenablog.jp/entry/2017/04/24/002533"
+osaka_url="https://atnd.org/events/88848"
+fukuoka_url1="https://atnd.org/events/88850"
+fukuoka_url2="http://papiro.hatenablog.jp/entry/2017/07/02/020652"
 
 starting_slide=
-question_url1="https://blog.ueda.asia/?p=9602"
-question_url2="https://blog.ueda.asia/?p=9575"
-togetter_url="https://togetter.com/li/1103388"
+question_url1="https://blog.ueda.tech/?p=9906"
+question_url2="https://blog.ueda.tech/?p=9870"
+togetter_url="https://togetter.com/li/1125585"
 
-tokyo_LT="https://www.youtube.com/watch?v=uRElj5X0S7k"
+tokyo_LT="https://www.youtube.com/watch?v=781cEwIQX-w"
 
 ### Main Text ###
-bef_place_url1="https://twitter.com/nmrmsys/status/855583414866419713"
+bef_place_url1="https://twitter.com/grethlen/status/880948812818268160"
 
-text_sankasya="今回の参加者は、私も含めて16人、うち、初参加は3名でした。\\n
-徐々に平均年齢が下がってきてなかなか良い感じです♪"
+text_sankasya="今回の参加者は、私も含めて17人、うち、初参加は8名くらいでした。\\n
+初参加の人も増えてきて、とても良い感じです。また今回は東京から、ぐれさんが~~プリティストアへ行くついでに~~大阪サテライトに参加してくださいました。"
 
 
 # 午前1
-am1_title="今泉光之さん「シグナルについて」 ※後半は @ryuichiueda さん"
-am1_txet="SIGNALの種類や役割について体系的に学んだり、trapして確かめたりなど。"
-am1_url="https://www.youtube.com/watch?v=TPzFICWp-sA"
-am1_url2="[https://www.slideshare.net/bsdhack/ss-75315823:embed]"
-am1_url3="[https://twitter.com/grethlen/status/855587839098052608:embed]"
-am1_url4="[https://twitter.com/hisaharu/status/855588196729536512:embed]"
-am1_url5="[https://twitter.com/t_motooka/status/855588267420401664:embed]"
+am1_title="鳥海秀一さん(@hid_tori)「Perlワンライナー入門」"
+am1_txet="Perlワンライナーの書き方や代表的なオプションなどの説明でした。ちなみに次回は「Perl正規表現入門」だそうです。"
+am1_url="https://www.youtube.com/watch?v=-0DltBwo_5k"
+am1_url2="[https://umidori.github.io/shellgei-29th-am/index.html:embed]"
+am1_url3="[https://twitter.com/grethlen/status/880955828802539520:embed]"
+am1_url4="[https://twitter.com/ryuichiueda/status/880957777455177728:embed]"
+am1_url5="[https://twitter.com/ryuichiueda/status/880965890405048321:embed]"
 
 # 午前2
 am2_title=""
@@ -50,9 +50,9 @@ am2_url5=""
 
 
 # 昼休み
-lunch_text=
+lunch_text="3人のキュアシェル芸人が集結していました！"
 
-lunch_url1=
+lunch_url1="https://twitter.com/kunst1080/status/880998843541630977"
 lunch_url2=
 lunch_url3=
 lunch_url4=
@@ -60,20 +60,20 @@ lunch_url5=
 lunch_url6=
 
 # 午後
-pm_text1="sed地獄と思いきやawkゴリゴリな感じでした。"
-pm_url1="https://twitter.com/msr386/status/855632997344608257"
-pm_url2="https://twitter.com/gin_135/status/855633161463537664"
-pm_url3="https://twitter.com/nmrmsys/status/855633908636856320"
-pm_url4="https://twitter.com/msr386/status/855677226414620673"
+pm_text1="今回は最近で一番むずかしいというかゴリゴリな感じでした。(毎回難しくなっていっている気がする)"
+pm_url1="https://twitter.com/kunst1080/status/881000849891246080"
+pm_url2="https://twitter.com/kunst1080/status/881001224388071424"
+pm_url3="https://twitter.com/ryuichiueda/status/881009191489384449"
+pm_url4="https://twitter.com/kunst1080/status/881023577557934081"
 
-pm_text2="今回はなんというか……非常に疲れました……死屍累々"
+pm_text2="今回はじめて使った「datamash」コマンド、なかなか使いやすそうです。データに対してSQLのようにsum,max,count等の集計ができます。"
 
 # 追記的な
-epilogue="[https://twitter.com/nmrmsys/status/855775981121830912:embed]"
+epilogue="二次会のようす [https://twitter.com/grethlen/status/881084021895188481:embed]"
 
 
 ### LT ###
-LT_summary="今回もUstreamで配信して頂けました！(録画はナシです)"
+LT_summary="今回はYoutubeで配信していただけました！ 録画もあります！ [https://www.youtube.com/watch?v=27iG0E0Rty0:embed]"
 
 # LT0_user=""
 # LT0_title=""
@@ -81,62 +81,79 @@ LT_summary="今回もUstreamで配信して頂けました！(録画はナシで
 # LT0_explain=""
 # LT0_twitter_url1=""
 
-LT1_user="@KoharaKazuya さん"
-LT1_title="シェル芸による git rev-list"
-LT1_slide_url="https://www.slideshare.net/reflectresults/git-revlist"
-LT1_explain="gitコマンドを使わず無理やりワンライナーでgitのログを閲覧するというシェル芸。
-ダミーのgzipヘッダーを付けるのは他の処理でもたまにやるという声もありました。こわい。"
-LT1_twitter_url1="https://twitter.com/kunst1080/status/855688296176918528"
-LT1_twitter_url2="https://twitter.com/nmrmsys/status/855688938291208192"
-LT1_twitter_url3="https://twitter.com/Iruyan_Zak/status/855689021783105536"
+LT1_user="いとす(@itosue) さん"
+LT1_title="sortのマルチコア対応状況について"
+LT1_slide_url=
+LT1_explain="コアやOSなどの条件を変えてみて、sortコマンドの実行速度を計測した結果の発表でした。"
+LT1_twitter_url1="https://twitter.com/kunst1080/status/881056130486616064"
+LT1_twitter_url2="https://twitter.com/xztaityozx_001/status/881055536996798464"
+LT1_twitter_url3="https://twitter.com/kunst1080/status/881056479674941440"
+LT1_twitter_url4="https://twitter.com/grethlen/status/881056680267571200"
 
-LT2_user="@msr386 さん"
-LT2_title="FORK爆弾 密着24時"
-LT2_slide_url="https://speakerdeck.com/msr_i386/discover-fork-bomb"
-LT2_explain="みんな大好きFork爆弾。
-それによってサーバが停止したときのクラッシュダンプを見るという、危険シェル芸から一歩踏み込んだ内容の発表でした。
-リソースが枯渇して死亡というイメージはあると思いますが、
-やはり実際に計測して何が起こっているのか確認するということは大事ですね！（しろめ"
-LT2_twitter_url1="https://twitter.com/kunst1080/status/855689966461911040"
-LT2_twitter_url2="https://twitter.com/kunst1080/status/855690778927964161"
-LT2_twitter_url3="https://twitter.com/kunst1080/status/855691564047253504"
-LT2_twitter_url4="https://twitter.com/nmrmsys/status/855693196118052865"
-LT2_twitter_url5="https://twitter.com/msr386/status/855707583142703104"
+LT2_user="たいちょー(@xztaityozx_001) さん"
+LT2_title="みんなで！　日本語base63難読化シェル芸"
+LT2_slide_url=
+LT2_explain="base64コマンドを使った、難読化シェル芸の話です。わかりやすくて面白い発表でした！"
+LT2_twitter_url1="https://twitter.com/ryuichiueda/status/881058567989608448"
+LT2_twitter_url2="https://twitter.com/ryuichiueda/status/881058610549108736"
+LT2_twitter_url3="https://twitter.com/Wslash/status/881059659976552451"
+LT2_twitter_url4="https://twitter.com/3socha/status/881059714171154432"
 
-LT3_user="@kunst1080"
-LT3_title="Ubuntu on Bash on Ubuntu on Windows"
-LT3_slide_url="https://www.slideshare.net/kunst1080/28lt-ubuntu-on-bash-on-ubuntu-on-windows"
-LT3_explain="Bash on Ubuntu on Windows上でchrootを使い、別のUbuntuのコンテナを動かす……ということで実際に作成した環境をデモしました。
-コンテナ内からコンテナ外のプロセスをkillできるのはいかがなものかと……"
-LT3_twitter_url1="https://twitter.com/nmrmsys/status/855696678103298048"
-LT3_twitter_url2="https://twitter.com/nmrmsys/status/855697583976480768"
-LT3_twitter_url3="https://twitter.com/Iruyan_Zak/status/855698943056859136"
+LT3_user="たいちょー(@xztaityozx_001) さん"
+LT3_title="シェル芸で使いたくてLINQが使えるコマンド作ったらawkでよかった話"
+LT3_slide_url=
+LT3_explain="(2つ発表して頂きました)
+シェルでLINQが書けるツール「ShelLINQ」(https://github.com/xztaityozx/shellinq)を作った話と、awkとの速度比較でした。
+awkの方が早いという結果が出ましたが、慣れたツールを使って書けるというのは重要なので需要はありそうです。"
+LT3_twitter_url1="https://twitter.com/blacknon_/status/881060090035425280"
+LT3_twitter_url2="https://twitter.com/grethlen/status/881060939511898112"
 
-LT4_user="@nmrmsys さん"
-LT4_title="SIerでもできる！　シェル芸？"
-LT4_slide_url="https://dl.dropboxusercontent.com/u/54939588/slides/Shell-Arts-Can-Also-Be-The-SIer.html"
-LT4_explain="とあるSIer向けの勉強会でシェル芸をやりたいという話があり、
-それに向けてブラウザでbashを動かす環境はないか探してみたという内容でした。
-他所様の環境でFork爆弾を投げるのはマジほんとやめてくださいね…… > 某参加者s(複数形)
-"
-LT4_twitter_url1="https://twitter.com/kunst1080/status/855699445186347008"
-LT4_twitter_url2="https://twitter.com/kunst1080/status/855701386318684160"
-LT4_twitter_url2="https://twitter.com/kunst1080/status/855701708478926849"
+LT4_user="ぐれさん(@grethlen)"
+LT4_title="狂気！　端末細胞分裂！"
+LT4_slide_url=
+LT4_explain="tmux-xpanes(http://qiita.com/greymd/items/8744d1c4b0b2b3004147)を使って再帰的にウィンドウを分割し、細胞分裂みたいにして遊ぼう！という発表でした。うにょうにょしてた。"
+LT4_twitter_url1="https://twitter.com/3socha/status/881064405873508352"
+LT4_twitter_url2="https://twitter.com/ryuichiueda/status/881066457840312320"
+LT4_twitter_url3="https://twitter.com/xztaityozx_001/status/881067315323850752"
+LT4_twitter_url4="https://twitter.com/kunst1080/status/881067371539996676"
 
-LT5_user="@3socha さん"
-LT5_title="SSM Run Command で遊ぶ"
-LT5_slide_url="https://horo17.github.io/aws-nest-call-slide/#/"
-LT5_explain="「Windows ホストの PowerShell からイベントログに書き込む SSM Run Command を実行する Lambda Function を Linux ホストのシェルから実行する SSM Run Command」のワンライナーの説明でした。ネストしゅごい……(ぐるぐる～"
-LT5_twitter_url1="https://twitter.com/kunst1080/status/855703616950108160"
-LT5_twitter_url2="https://twitter.com/nmrmsys/status/855704483103293440"
+LT5_user="so(@3socha) さん"
+LT5_title="AWS Windows のパスワード"
+LT5_slide_url="https://horo17.github.io/aws-windows-password/#/"
+LT5_explain="AWS Windowsのパスワードは通常、マネジメントコンソールのブラウザ上で複合する手順なのですが、不安なので手元で復号化しよう -> CLIでやろう -> シェル芸だ！　という流れの発表です。AWSをシェル芸で使い倒している感じがします。"
+LT5_twitter_url1="https://twitter.com/kunst1080/status/881068611787345920"
+LT5_twitter_url2="https://twitter.com/vvanitter82/status/881069123542802432"
+LT5_twitter_url2="https://twitter.com/kunst1080/status/881069160200941568"
+
+LT6_user="小原　一哉(KoharaKazuya) さん"
+LT6_title="画像シェル芸入門"
+LT6_slide_url=
+LT6_explain="iTerm2のimgcatを使って、imagemagickなどで作成した画像をターミナルに表示するシェル芸の紹介でした。中間ファイルがいらなくなるので、画像処理の各種パラメータ値の確認とかで意外と使えそうです。"
+LT6_twitter_url1="https://twitter.com/kunst1080/status/881069762251440128"
+LT6_twitter_url2="https://twitter.com/kunst1080/status/881070086445977600"
+LT6_twitter_url3="https://twitter.com/kunst1080/status/881070376909918210"
+LT6_twitter_url4="https://twitter.com/kunst1080/status/881070673774362624"
+
+LT7_user="日柳 光久(@mikkun_jp) さん"
+LT7_title="帰ってきたバナー芸＋手書きSVG"
+LT7_slide_url=
+LT7_explain="コマンド: [https://gist.github.com/mikkun/c21bb32dc8ee8a82db24c57176ecc522:embed]\\n
+「Windows ホストの PowerShell からイベントログに書き込む SSM Run Command を実行する Lambda Function を Linux ホストのシェルから実行する SSM Run Command」のワンライナーの説明でした。ネストしゅごい……(ぐるぐる～"
+LT7_twitter_url1="https://twitter.com/3socha/status/881072226673479680"
+LT7_twitter_url2="https://twitter.com/kunst1080/status/881072371683086336"
+LT7_twitter_url3="https://twitter.com/grethlen/status/881072404759322624"
+LT7_twitter_url4="https://twitter.com/kunst1080/status/881072908809809920"
+LT7_twitter_url5="https://twitter.com/Carol_815/status/881073485614694400"
 
 # まとめ
-LT_maeome="今回も濃ゆい発表をありがとうございましたm(_ _)m 大阪のLTはジャンルを問わないので、ネタさえあれば大丈夫！　どしどし発表しちゃって下さい～"
+LT_maeome="今回も濃ゆい発表をありがとうございましたm(_ _)m 今回は初参加の方も多く、初参加で発表してくださる方もいて非常によかったです。数回ぶりの方もありがとうございました。また都合がつけばお気軽にご参加くださいー"
 
 matome="上田会長、東京・福岡・大阪の皆様、お疲れ様でした。\\n
 フェンリル様、いつも会場を使わせていただきましてありがとうございます！\\n
 
-次回もまたよろしくお願いします！！
+次回もまたよろしくお願いします！！\\n
+
+ちなみに、次は会場をさくらさんにお願いするのもアリかも？　みたいな話もしています。ただいま検討中です。
 "
 
 #########################################################################################
@@ -150,7 +167,7 @@ writeLT() {
 		if [ -v ${LT}_user ]
 		then
 			echo "### $(eecho ${LT}_user) 「$(eecho ${LT}_title)」"
-			[ "$(eecho ${LT}_slide_url)" != "" ] && echo "[$(eecho ${LT}_slide_url):embed]\n"
+			[ "$(eecho ${LT}_slide_url)" != "" ] && echo "スライド: [$(eecho ${LT}_slide_url):embed]\n"
 			eecho "${LT}_explain"
 			for jjj in 1 2 3 4 5 6 7 8 9 10
 			do
