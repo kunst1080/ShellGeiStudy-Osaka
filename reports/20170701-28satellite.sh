@@ -84,7 +84,9 @@ LT_summary="今回はYoutubeで配信していただけました！ 録画もあ
 LT1_user="いとす(@itosue) さん"
 LT1_title="sortのマルチコア対応状況について"
 LT1_slide_url=
-LT1_explain="コアやOSなどの条件を変えてみて、sortコマンドの実行速度を計測した結果の発表でした。"
+LT1_explain="コアやOSなどの条件を変えてみて、sortコマンドの実行速度を計測した結果の発表でした。
+[https://github.com/itosue/shellgei20170701/blob/master/PITCHME.md:embed]
+"
 LT1_twitter_url1="https://twitter.com/kunst1080/status/881056130486616064"
 LT1_twitter_url2="https://twitter.com/xztaityozx_001/status/881055536996798464"
 LT1_twitter_url3="https://twitter.com/kunst1080/status/881056479674941440"
