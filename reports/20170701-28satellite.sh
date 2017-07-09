@@ -92,7 +92,7 @@ LT1_twitter_url4="https://twitter.com/grethlen/status/881056680267571200"
 
 LT2_user="たいちょー(@xztaityozx_001) さん"
 LT2_title="みんなで！　日本語base63難読化シェル芸"
-LT2_slide_url=
+LT2_slide_url="https://www.slideshare.net/xztaityozx/base64-77639861"
 LT2_explain="base64コマンドを使った、難読化シェル芸の話です。わかりやすくて面白い発表でした！"
 LT2_twitter_url1="https://twitter.com/ryuichiueda/status/881058567989608448"
 LT2_twitter_url2="https://twitter.com/ryuichiueda/status/881058610549108736"
@@ -101,7 +101,7 @@ LT2_twitter_url4="https://twitter.com/3socha/status/881059714171154432"
 
 LT3_user="たいちょー(@xztaityozx_001) さん"
 LT3_title="シェル芸で使いたくてLINQが使えるコマンド作ったらawkでよかった話"
-LT3_slide_url=
+LT3_slide_url="https://www.slideshare.net/xztaityozx/linqawk"
 LT3_explain="(2つ発表して頂きました)
 シェルでLINQが書けるツール「ShelLINQ」(https://github.com/xztaityozx/shellinq)を作った話と、awkとの速度比較でした。
 awkの方が早いという結果が出ましたが、慣れたツールを使って書けるというのは重要なので需要はありそうです。"
@@ -110,12 +110,13 @@ LT3_twitter_url2="https://twitter.com/grethlen/status/881060939511898112"
 
 LT4_user="ぐれさん(@grethlen)"
 LT4_title="狂気！　端末細胞分裂！"
-LT4_slide_url=
+LT4_slide_url="https://hackmd.io/p/S1c1qsTfZ#/"
 LT4_explain="tmux-xpanes(http://qiita.com/greymd/items/8744d1c4b0b2b3004147)を使って再帰的にウィンドウを分割し、細胞分裂みたいにして遊ぼう！という発表でした。うにょうにょしてた。"
 LT4_twitter_url1="https://twitter.com/3socha/status/881064405873508352"
 LT4_twitter_url2="https://twitter.com/ryuichiueda/status/881066457840312320"
 LT4_twitter_url3="https://twitter.com/xztaityozx_001/status/881067315323850752"
 LT4_twitter_url4="https://twitter.com/kunst1080/status/881067371539996676"
+LT4_twitter_url5="https://twitter.com/grethlen/status/882073819493482496"
 
 LT5_user="so(@3socha) さん"
 LT5_title="AWS Windows のパスワード"
@@ -127,7 +128,7 @@ LT5_twitter_url2="https://twitter.com/kunst1080/status/881069160200941568"
 
 LT6_user="小原　一哉(KoharaKazuya) さん"
 LT6_title="画像シェル芸入門"
-LT6_slide_url=
+LT6_slide_url="https://www.slideshare.net/reflectresults/image-shellgei"
 LT6_explain="iTerm2のimgcatを使って、imagemagickなどで作成した画像をターミナルに表示するシェル芸の紹介でした。中間ファイルがいらなくなるので、画像処理の各種パラメータ値の確認とかで意外と使えそうです。"
 LT6_twitter_url1="https://twitter.com/kunst1080/status/881069762251440128"
 LT6_twitter_url2="https://twitter.com/kunst1080/status/881070086445977600"
