@@ -141,7 +141,7 @@ LT7_user="日柳 光久(@mikkun_jp) さん"
 LT7_title="帰ってきたバナー芸＋手書きSVG"
 LT7_slide_url=
 LT7_explain="コマンド: [https://gist.github.com/mikkun/c21bb32dc8ee8a82db24c57176ecc522:embed]\\n
-「Windows ホストの PowerShell からイベントログに書き込む SSM Run Command を実行する Lambda Function を Linux ホストのシェルから実行する SSM Run Command」のワンライナーの説明でした。ネストしゅごい……(ぐるぐる～"
+東京からぐれさんがいらっしゃるということで、歓迎のため、端末にうんこを流すという発表でした。本日一番の大盛り上がりだったと思います！！"
 LT7_twitter_url1="https://twitter.com/3socha/status/881072226673479680"
 LT7_twitter_url2="https://twitter.com/kunst1080/status/881072371683086336"
 LT7_twitter_url3="https://twitter.com/grethlen/status/881072404759322624"
